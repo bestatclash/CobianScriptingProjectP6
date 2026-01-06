@@ -13,11 +13,10 @@ public class DoWhileLoops : MonoBehaviour
         {
             print("The new meme is 6.......7")
         }
-        while (shouldCContinue == true);
+        while (shouldContinue == true);
     }
     // Update is called once per frame
-    void Update()
-    {
-        
+
+       }
     }
 }
