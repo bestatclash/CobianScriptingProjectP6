@@ -13,13 +13,21 @@ public class NewBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     if input . GetKeyDown(KeyCode.R))
-    }
-}GetComponint<Renderer>().material.color = Color.red;
+      if (input.GetKeyDown(KeyCode.R))
+      }
+         GetComponint<Renderer>().material.color = Color.red;
+      }
+      if (Input.GetKeyDown(KeyCode.G))
+      {
+         GetComponent<Renderer>().material.color = Color.green;
+      }
+      if (input.GetKeyDown(KeyCode.B))
+      {
+         GetComponent<Renderer>().material.color = Color.blue;
+      }
+   }
 }
-if (Input.GetKeyDown(KeyCode.B)
-{
-    GetComponent<Renderer>().material.color = Color.blue;
-         }
-     }
- }
+
+
+
+     
