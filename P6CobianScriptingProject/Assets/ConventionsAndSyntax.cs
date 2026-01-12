@@ -8,7 +8,7 @@ public class ConventionsAndSyntax : MonoBehaviour
     void Start()
     {
         //This first line is going to tell me the x location of my gameobject
-        Debug.Log(transform.position.x)
+        Debug.Log(transform.position.x);
     }
 
     // Update is called once per frame
@@ -20,5 +20,6 @@ public class ConventionsAndSyntax : MonoBehaviour
         {
             Debug.Log("I'm about to hit the ground");
         }
+
     }
 }

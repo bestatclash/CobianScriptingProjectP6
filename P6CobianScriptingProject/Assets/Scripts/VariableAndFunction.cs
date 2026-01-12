@@ -20,14 +20,21 @@ public class VariableAndFunction : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {//creating my function
-        int MultiplyByTwo(int number)
-       //creat a results variable
-    int result;
-    result = number* 2;
-        return result; 
+    {
 
     }
+
+    //creating my function
+     int MultiplyByTwo(int number)
+     { 
+       //creat a results variable
+        int result;
+        result = number* 2;
+
+        //return the result
+        return result; 
+
+     }
 
 
 }
